@@ -3,7 +3,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <form>
+      <h1>Task Master</h1>
+      <form className="form">
         <input type="text" placeholder='Add Task Item' />
         <button type="submit">Add</button>
       </form>
